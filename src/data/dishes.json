@@ -1,0 +1,222 @@
+[
+  {
+    "id": "nasi-goreng", "name": "Nasi Goreng", "emoji": "🍳", "cuisine": "Indonesian",
+    "spicy": 1, "sweet": false, "soupy": false, "heaviness": "heavy",
+    "bestTimes": ["lunch", "dinner", "late"],
+    "pitches": [
+      "The default answer for a reason: smoky, filling, and somehow always right.",
+      "When you can't decide, the wok decides for you.",
+      "Fried rice with a fried egg on top. You already know this is a good idea."
+    ]
+  },
+  {
+    "id": "mie-ayam", "name": "Mie Ayam", "emoji": "🍜", "cuisine": "Indonesian",
+    "spicy": 0, "sweet": false, "soupy": true, "heaviness": "medium",
+    "bestTimes": ["lunch", "dinner"],
+    "pitches": [
+      "Springy noodles, sweet-savoury chicken, broth on the side. Cheap comfort done right.",
+      "Add sambal, add pangsit, add happiness.",
+      "The between-classes classic. Fast, warm, never disappointing."
+    ]
+  },
+  {
+    "id": "bakso", "name": "Bakso", "emoji": "🥣", "cuisine": "Indonesian",
+    "spicy": 1, "sweet": false, "soupy": true, "heaviness": "medium",
+    "bestTimes": ["lunch", "dinner"],
+    "pitches": [
+      "Hot broth, bouncy meatballs. Rainy-day energy in a bowl.",
+      "A little kecap, a lot of sambal, and the day gets better.",
+      "Some days just need soup. Today sounds like one of them."
+    ]
+  },
+  {
+    "id": "soto-ayam", "name": "Soto Ayam", "emoji": "🍲", "cuisine": "Indonesian",
+    "spicy": 0, "sweet": false, "soupy": true, "heaviness": "light",
+    "bestTimes": ["breakfast", "lunch"],
+    "pitches": [
+      "Turmeric broth, shredded chicken, a squeeze of lime. Gentle and bright.",
+      "Light enough for a morning, warm enough for a whole afternoon.",
+      "The bowl that fixes a long day without slowing you down."
+    ]
+  },
+  {
+    "id": "ayam-geprek", "name": "Ayam Geprek", "emoji": "🍗", "cuisine": "Indonesian",
+    "spicy": 3, "sweet": false, "soupy": false, "heaviness": "heavy",
+    "bestTimes": ["lunch", "dinner"],
+    "pitches": [
+      "Crispy chicken, smashed into sambal. Pick your level and be brave.",
+      "The student budget hero: crunchy, spicy, and very filling.",
+      "If you want heat, this is the honest answer."
+    ]
+  },
+  {
+    "id": "nasi-padang", "name": "Nasi Padang", "emoji": "🍛", "cuisine": "Padang",
+    "spicy": 2, "sweet": false, "soupy": false, "heaviness": "heavy",
+    "bestTimes": ["lunch", "dinner"],
+    "pitches": [
+      "Rendang, gulai, sambal ijo. A whole feast on one plate.",
+      "Big appetite? Padang has never once left anyone hungry.",
+      "Point at what you want. That's the whole menu experience."
+    ]
+  },
+  {
+    "id": "sate-ayam", "name": "Sate Ayam", "emoji": "🍢", "cuisine": "Indonesian",
+    "spicy": 0, "sweet": true, "soupy": false, "heaviness": "medium",
+    "bestTimes": ["dinner", "late"],
+    "pitches": [
+      "Charcoal smoke and peanut sauce. Your nose already said yes.",
+      "Skewers taste better after dark. That's just science.",
+      "Sweet, smoky, and great for sharing (or not sharing)."
+    ]
+  },
+  {
+    "id": "gado-gado", "name": "Gado-Gado", "emoji": "🥗", "cuisine": "Indonesian",
+    "spicy": 1, "sweet": true, "soupy": false, "heaviness": "light",
+    "bestTimes": ["breakfast", "lunch"],
+    "pitches": [
+      "Vegetables that actually taste exciting, thanks to that peanut sauce.",
+      "Light, fresh, and still satisfying. The smart pick.",
+      "Eat your greens without it feeling like a sacrifice."
+    ]
+  },
+  {
+    "id": "pecel-lele", "name": "Pecel Lele", "emoji": "🐟", "cuisine": "Indonesian",
+    "spicy": 2, "sweet": false, "soupy": false, "heaviness": "medium",
+    "bestTimes": ["dinner", "late"],
+    "pitches": [
+      "Crispy fried catfish, raw sambal, warm rice. Tenda food at its best.",
+      "The tent-stall dinner Depok runs on.",
+      "Crunchy, spicy, cheap. Hard to argue with that."
+    ]
+  },
+  {
+    "id": "martabak-manis", "name": "Martabak Manis", "emoji": "🥞", "cuisine": "Indonesian",
+    "spicy": 0, "sweet": true, "soupy": false, "heaviness": "heavy",
+    "bestTimes": ["dinner", "late"],
+    "pitches": [
+      "Thick, buttery, loaded with chocolate and cheese. Bring friends. Or don't.",
+      "Dessert that counts as dinner if you believe hard enough.",
+      "Late night plus martabak equals a good decision."
+    ]
+  },
+  {
+    "id": "seblak", "name": "Seblak", "emoji": "🌶️", "cuisine": "Sundanese",
+    "spicy": 3, "sweet": false, "soupy": true, "heaviness": "medium",
+    "bestTimes": ["lunch", "dinner", "late"],
+    "pitches": [
+      "Chewy krupuk in a fiery kencur broth. Choose your toppings, choose your pain.",
+      "For when you want your mouth to feel something.",
+      "Customisable chaos in a bowl. In a good way."
+    ]
+  },
+  {
+    "id": "indomie", "name": "Indomie Telur", "emoji": "🍜", "cuisine": "Warmindo",
+    "spicy": 1, "sweet": false, "soupy": false, "heaviness": "medium",
+    "bestTimes": ["breakfast", "late"],
+    "pitches": [
+      "It's 1 a.m. and the warmindo is open. You know what to do.",
+      "The national midnight snack, made better by someone else's stove.",
+      "Cheap, fast, and exactly what a deadline night needs."
+    ]
+  },
+  {
+    "id": "nasi-uduk", "name": "Nasi Uduk", "emoji": "🍚", "cuisine": "Betawi",
+    "spicy": 1, "sweet": false, "soupy": false, "heaviness": "medium",
+    "bestTimes": ["breakfast", "dinner"],
+    "pitches": [
+      "Coconut rice, fried chicken, sambal kacang. A proper start to anything.",
+      "Fragrant rice that makes every side dish better.",
+      "Breakfast of champions, Betawi edition."
+    ]
+  },
+  {
+    "id": "bubur-ayam", "name": "Bubur Ayam", "emoji": "🥣", "cuisine": "Indonesian",
+    "spicy": 0, "sweet": false, "soupy": true, "heaviness": "light",
+    "bestTimes": ["breakfast"],
+    "pitches": [
+      "Soft, warm, and easy on a sleepy stomach.",
+      "Stirred or not stirred? Either way, a gentle morning win.",
+      "The breakfast that feels like being looked after."
+    ]
+  },
+  {
+    "id": "siomay", "name": "Siomay Bandung", "emoji": "🥟", "cuisine": "Sundanese",
+    "spicy": 1, "sweet": true, "soupy": false, "heaviness": "light",
+    "bestTimes": ["lunch", "dinner"],
+    "pitches": [
+      "Steamed fish dumplings drowned in peanut sauce. Snack or meal, your call.",
+      "Light enough to keep going, tasty enough to want more.",
+      "The cart outside campus knows what you need."
+    ]
+  },
+  {
+    "id": "pempek", "name": "Pempek", "emoji": "🍥", "cuisine": "Palembang",
+    "spicy": 1, "sweet": true, "soupy": false, "heaviness": "medium",
+    "bestTimes": ["lunch", "dinner"],
+    "pitches": [
+      "Chewy fish cakes with sweet-sour cuko. Tangy in the best way.",
+      "Kapal selam with a whole egg inside. Go big.",
+      "When you want something different from rice and noodles."
+    ]
+  },
+  {
+    "id": "dimsum", "name": "Dimsum", "emoji": "🥟", "cuisine": "Chinese",
+    "spicy": 0, "sweet": false, "soupy": false, "heaviness": "light",
+    "bestTimes": ["breakfast", "lunch"],
+    "pitches": [
+      "Little steamed baskets of joy. Order more than you think.",
+      "Shareable, snackable, and great when you can't commit to one thing.",
+      "Hakau, siomay, bakpao: variety on one table."
+    ]
+  },
+  {
+    "id": "ramen", "name": "Ramen", "emoji": "🍜", "cuisine": "Japanese",
+    "spicy": 1, "sweet": false, "soupy": true, "heaviness": "heavy",
+    "bestTimes": ["lunch", "dinner"],
+    "pitches": [
+      "Rich broth, chashu, a jammy egg. Worth the little splurge.",
+      "Treat yourself. You've had a week.",
+      "Deep, slow-cooked flavour for a not-so-slow price."
+    ]
+  },
+  {
+    "id": "rice-bowl", "name": "Rice Bowl", "emoji": "🍱", "cuisine": "Asian Fusion",
+    "spicy": 1, "sweet": true, "soupy": false, "heaviness": "medium",
+    "bestTimes": ["lunch", "dinner"],
+    "pitches": [
+      "Chicken teriyaki or sambal matah, all in one tidy bowl.",
+      "Easy to eat between classes, easy to like.",
+      "Everything you need, nothing you don't."
+    ]
+  },
+  {
+    "id": "burger", "name": "Burger", "emoji": "🍔", "cuisine": "Western",
+    "spicy": 0, "sweet": false, "soupy": false, "heaviness": "heavy",
+    "bestTimes": ["lunch", "dinner", "late"],
+    "pitches": [
+      "Smashed patty, melted cheese, toasted bun. Sometimes simple wins.",
+      "Two hands, no regrets.",
+      "A craving this specific deserves to be answered."
+    ]
+  },
+  {
+    "id": "tteokbokki", "name": "Tteokbokki", "emoji": "🍡", "cuisine": "Korean",
+    "spicy": 2, "sweet": true, "soupy": false, "heaviness": "medium",
+    "bestTimes": ["lunch", "dinner", "late"],
+    "pitches": [
+      "Chewy rice cakes in sweet-spicy gochujang. Drama-watching food.",
+      "Sweet first, spicy second, addictive third.",
+      "Add cheese. Trust the process."
+    ]
+  },
+  {
+    "id": "ayam-bakar", "name": "Ayam Bakar", "emoji": "🔥", "cuisine": "Indonesian",
+    "spicy": 1, "sweet": true, "soupy": false, "heaviness": "heavy",
+    "bestTimes": ["lunch", "dinner"],
+    "pitches": [
+      "Kecap-glazed, charred at the edges, smoky all the way through.",
+      "The grill does the convincing. You just eat.",
+      "A proper meal for a proper hunger."
+    ]
+  }
+]

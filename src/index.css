@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+
+/* Design tokens — carried over from the Figma prototype. Use these names in classes:
+   bg-cream, bg-card, text-ink, text-brown, text-muted, bg-terra, border-line … */
+@theme {
+  --color-cream: #fdf8f0;
+  --color-card: #fff9f3;
+  --color-sand: #edd5b8;
+  --color-sand-soft: #f5e6d3;
+  --color-terra: #c4622d;
+  --color-terra-hover: #d97843;
+  --color-brown: #7c4a32;
+  --color-ink: #2c1a0e;
+  --color-muted: #8f6e59;
+  --color-line: rgb(196 98 45 / 0.16);
+  --color-ok: #3f7d4e;
+  --color-warn: #b7791f;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-sans: 'Nunito', system-ui, sans-serif;
+
+  --animate-pop-in: pop-in 0.45s cubic-bezier(0.16, 1, 0.3, 1) both;
+  --animate-float: float 3.6s ease-in-out infinite;
+}
+
+@keyframes pop-in {
+  from { opacity: 0; transform: translateY(14px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+html, body, #root { min-height: 100%; }
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--color-terra) 55%, transparent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+/* Leaflet sits inside rounded cards */
+.leaflet-container { font-family: var(--font-sans); background: var(--color-sand-soft); }
+.ob-pin {
+  display: grid; place-items: center;
+  width: 34px; height: 34px; border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  background: var(--color-terra); border: 2px solid #fff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.25);
+}
+.ob-pin > span { transform: rotate(45deg); font-size: 16px; line-height: 1; }
+.ob-pin.is-muted { background: #b79a86; }
+.ob-me {
+  width: 16px; height: 16px; border-radius: 50%;
+  background: #2f6fd6; border: 3px solid #fff;
+  box-shadow: 0 0 0 6px rgb(47 111 214 / 0.2);
+}
+
+/* Where the roll button lives:
+   - narrow screens (portrait phones) and short screens (landscape phones): fixed bar at the bottom
+   - otherwise: inside the preferences panel */
+.roll-in-panel { display: none; }
+.site-footer { padding-bottom: 7rem; }
+@media (min-width: 768px) and (min-height: 501px) {
+  .roll-bar { display: none; }
+  .roll-in-panel { display: block; }
+  .site-footer { padding-bottom: 2rem; }
+}

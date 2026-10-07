@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "sample": true,
+    "note": "SAMPLE DATA. Places, coordinates, hours and prices are illustrative, not real businesses. Replace with collected data (option A) before any public launch.",
+    "area": "Universitas Indonesia, Depok",
+    "center": { "lat": -6.3628, "lng": 106.8269 }
+  },
+  "restaurants": [
+    {
+      "id": "nasgor-bang-jali", "name": "Warung Nasgor Bang Jali", "area": "Kukusan Teknik",
+      "lat": -6.3631, "lng": 106.8201, "hours": "16:00-02:00",
+      "menu": [
+        { "name": "Nasi Goreng Biasa", "price": 15000, "dishId": "nasi-goreng" },
+        { "name": "Nasi Goreng Seafood", "price": 22000, "dishId": "nasi-goreng" },
+        { "name": "Mie Goreng Jawa", "price": 17000 },
+        { "name": "Kwetiau Goreng", "price": 18000 },
+        { "name": "Es Teh Manis", "price": 4000 }
+      ]
+    },
+    {
+      "id": "warmindo-begadang", "name": "Warmindo Begadang", "area": "Kukusan Teknik",
+      "lat": -6.3642, "lng": 106.8212, "hours": "00:00-24:00",
+      "menu": [
+        { "name": "Indomie Goreng Telur Kornet", "price": 13000, "dishId": "indomie" },
+        { "name": "Indomie Rebus Telur", "price": 11000, "dishId": "indomie" },
+        { "name": "Nasi Goreng Warmindo", "price": 15000, "dishId": "nasi-goreng" },
+        { "name": "Nasi Telur Orak-Arik", "price": 12000 },
+        { "name": "Kopi Susu", "price": 5000 }
+      ]
+    },
+    {
+      "id": "geprek-juara", "name": "Geprek Juara Kukusan", "area": "Kukusan Teknik",
+      "lat": -6.3655, "lng": 106.8195, "hours": "10:00-22:00",
+      "menu": [
+        { "name": "Ayam Geprek (level 1–5)", "price": 16000, "dishId": "ayam-geprek" },
+        { "name": "Ayam Geprek Sambal Matah", "price": 19000, "dishId": "ayam-geprek" },
+        { "name": "Geprek Keju Mozarella", "price": 21000, "dishId": "ayam-geprek" },
+        { "name": "Es Jeruk", "price": 6000 }
+      ]
+    },
+    {
+      "id": "seblak-ceu-nenah", "name": "Seblak Ceu Nenah", "area": "Kukusan Teknik",
+      "lat": -6.3618, "lng": 106.8188, "hours": "11:00-23:00",
+      "menu": [
+        { "name": "Seblak Original", "price": 13000, "dishId": "seblak" },
+        { "name": "Seblak Komplit", "price": 22000, "dishId": "seblak" },
+        { "name": "Cilok Kuah", "price": 10000 },
+        { "name": "Es Teh Jumbo", "price": 5000 }
+      ]
+    },
+    {
+      "id": "mie-ayam-mas-tono", "name": "Mie Ayam Mas Tono", "area": "Kober",
+      "lat": -6.3582, "lng": 106.8308, "hours": "09:00-20:00",
+      "menu": [
+        { "name": "Mie Ayam Biasa", "price": 13000, "dishId": "mie-ayam" },
+        { "name": "Mie Ayam Bakso", "price": 18000, "dishId": "mie-ayam" },
+        { "name": "Bakso Urat", "price": 20000, "dishId": "bakso" },
+        { "name": "Pangsit Goreng", "price": 6000 }
+      ]
+    },
+    {
+      "id": "bakso-gajah-kober", "name": "Bakso Gajah Kober", "area": "Kober",
+      "lat": -6.3576, "lng": 106.8318, "hours": "10:00-21:00",
+      "menu": [
+        { "name": "Bakso Halus", "price": 17000, "dishId": "bakso" },
+        { "name": "Bakso Gajah", "price": 28000, "dishId": "bakso" },
+        { "name": "Mie Ayam Bakso", "price": 19000, "dishId": "mie-ayam" },
+        { "name": "Es Campur", "price": 12000 }
+      ]
+    },
+    {
+      "id": "bowl-and-co", "name": "Bowl & Co", "area": "Kober",
+      "lat": -6.3588, "lng": 106.8302, "hours": "10:00-21:00",
+      "menu": [
+        { "name": "Chicken Teriyaki Bowl", "price": 28000, "dishId": "rice-bowl" },
+        { "name": "Sambal Matah Bowl", "price": 30000, "dishId": "rice-bowl" },
+        { "name": "Beef Yakiniku Bowl", "price": 36000, "dishId": "rice-bowl" },
+        { "name": "Lemon Tea", "price": 10000 }
+      ]
+    },
+    {
+      "id": "malam-kober", "name": "Martabak & Sate Malam Kober", "area": "Kober",
+      "lat": -6.3579, "lng": 106.8296, "hours": "17:00-02:00",
+      "menu": [
+        { "name": "Martabak Manis Keju", "price": 38000, "dishId": "martabak-manis" },
+        { "name": "Sate Ayam (10 tusuk)", "price": 25000, "dishId": "sate-ayam" },
+        { "name": "Indomie Goreng Telur", "price": 13000, "dishId": "indomie" },
+        { "name": "Teh Tarik", "price": 8000 }
+      ]
+    },
+    {
+      "id": "siomay-mang-ujang", "name": "Siomay Mang Ujang", "area": "Stasiun UI",
+      "lat": -6.3610, "lng": 106.8312, "hours": "10:00-18:00",
+      "menu": [
+        { "name": "Siomay Komplit", "price": 17000, "dishId": "siomay" },
+        { "name": "Siomay Biasa", "price": 12000, "dishId": "siomay" },
+        { "name": "Batagor", "price": 15000 },
+        { "name": "Es Cendol", "price": 8000 }
+      ]
+    },
+    {
+      "id": "soto-pak-darmo", "name": "Soto Pak Darmo", "area": "Barel",
+      "lat": -6.3549, "lng": 106.8327, "hours": "06:30-15:00",
+      "menu": [
+        { "name": "Soto Ayam", "price": 17000, "dishId": "soto-ayam" },
+        { "name": "Nasi Uduk Ayam Goreng", "price": 16000, "dishId": "nasi-uduk" },
+        { "name": "Bubur Ayam", "price": 13000, "dishId": "bubur-ayam" },
+        { "name": "Soto Betawi", "price": 25000 },
+        { "name": "Perkedel", "price": 3000 }
+      ]
+    },
+    {
+      "id": "gado-gado-bu-sum", "name": "Gado-Gado Bu Sum", "area": "Barel",
+      "lat": -6.3556, "lng": 106.8334, "hours": "07:00-14:00",
+      "menu": [
+        { "name": "Gado-Gado", "price": 17000, "dishId": "gado-gado" },
+        { "name": "Ketoprak", "price": 16000 },
+        { "name": "Lontong Sayur", "price": 14000 }
+      ]
+    },
+    {
+      "id": "seblak-prasmanan-barel", "name": "Seblak Prasmanan Barel", "area": "Barel",
+      "lat": -6.3552, "lng": 106.8338, "hours": "12:00-22:00",
+      "menu": [
+        { "name": "Seblak Prasmanan (pilih topping)", "price": 15000, "dishId": "seblak" },
+        { "name": "Tteokbokki Pedas", "price": 20000, "dishId": "tteokbokki" },
+        { "name": "Es Teh Leci", "price": 8000 }
+      ]
+    },
+    {
+      "id": "padang-ranah-minang", "name": "RM Padang Ranah Minang", "area": "Pondok Cina",
+      "lat": -6.3688, "lng": 106.8331, "hours": "08:00-22:00",
+      "menu": [
+        { "name": "Nasi Telur Dadar Padang", "price": 15000, "dishId": "nasi-padang" },
+        { "name": "Nasi Ayam Pop", "price": 22000, "dishId": "nasi-padang" },
+        { "name": "Nasi Gulai Tunjang", "price": 24000, "dishId": "nasi-padang" },
+        { "name": "Nasi Rendang", "price": 25000, "dishId": "nasi-padang" }
+      ]
+    },
+    {
+      "id": "bubur-gerobak-pocin", "name": "Bubur Ayam Gerobak Pocin", "area": "Pondok Cina",
+      "lat": -6.3695, "lng": 106.8338, "hours": "06:00-10:30",
+      "menu": [
+        { "name": "Bubur Ayam Biasa", "price": 12000, "dishId": "bubur-ayam" },
+        { "name": "Bubur Ayam Komplit", "price": 16000, "dishId": "bubur-ayam" },
+        { "name": "Sate Usus", "price": 3000 }
+      ]
+    },
+    {
+      "id": "ramen-kotaro", "name": "Ramen Kotaro", "area": "Margonda",
+      "lat": -6.3725, "lng": 106.8329, "hours": "11:00-22:00",
+      "menu": [
+        { "name": "Shoyu Ramen", "price": 42000, "dishId": "ramen" },
+        { "name": "Spicy Miso Ramen", "price": 48000, "dishId": "ramen" },
+        { "name": "Karaage Rice Bowl", "price": 35000, "dishId": "rice-bowl" },
+        { "name": "Gyoza (5 pcs)", "price": 25000 }
+      ]
+    },
+    {
+      "id": "sate-cak-fadil", "name": "Sate Madura Cak Fadil", "area": "Margonda",
+      "lat": -6.3735, "lng": 106.8318, "hours": "17:00-24:00",
+      "menu": [
+        { "name": "Sate Ayam + Lontong", "price": 24000, "dishId": "sate-ayam" },
+        { "name": "Sate Kambing", "price": 35000 },
+        { "name": "Sop Kambing", "price": 30000 }
+      ]
+    },
+    {
+      "id": "oppa-tteok", "name": "Oppa Tteok", "area": "Margonda",
+      "lat": -6.3740, "lng": 106.8312, "hours": "11:00-22:00",
+      "menu": [
+        { "name": "Tteokbokki Original", "price": 28000, "dishId": "tteokbokki" },
+        { "name": "Cheese Tteokbokki", "price": 35000, "dishId": "tteokbokki" },
+        { "name": "Ramyeon Pedas", "price": 30000, "dishId": "ramen" },
+        { "name": "Korean Chicken Bowl", "price": 33000, "dishId": "rice-bowl" },
+        { "name": "Kimbap", "price": 25000 }
+      ]
+    },
+    {
+      "id": "dimsum-kukus-margonda", "name": "Dimsum Kukus Margonda", "area": "Margonda",
+      "lat": -6.3748, "lng": 106.8327, "hours": "07:00-15:00",
+      "menu": [
+        { "name": "Siomay Ayam Dimsum (4 pcs)", "price": 18000, "dishId": "dimsum" },
+        { "name": "Paket Dimsum 4 Varian", "price": 32000, "dishId": "dimsum" },
+        { "name": "Bakpao Coklat", "price": 10000 }
+      ]
+    },
+    {
+      "id": "pecel-tenda-biru", "name": "Pecel Lele Tenda Biru", "area": "Margonda",
+      "lat": -6.3762, "lng": 106.8322, "hours": "17:00-01:00",
+      "menu": [
+        { "name": "Pecel Lele", "price": 18000, "dishId": "pecel-lele" },
+        { "name": "Ayam Bakar Tenda", "price": 23000, "dishId": "ayam-bakar" },
+        { "name": "Pecel Ayam", "price": 20000 },
+        { "name": "Tahu Tempe", "price": 5000 }
+      ]
+    },
+    {
+      "id": "smash-lab", "name": "Smash Lab Burger", "area": "Margonda",
+      "lat": -6.3770, "lng": 106.8314, "hours": "11:00-23:00",
+      "menu": [
+        { "name": "Single Smash Burger", "price": 32000, "dishId": "burger" },
+        { "name": "Double Cheese Smash", "price": 45000, "dishId": "burger" },
+        { "name": "Fries", "price": 15000 }
+      ]
+    },
+    {
+      "id": "martabak-purnama", "name": "Martabak Bulan Purnama", "area": "Margonda",
+      "lat": -6.3790, "lng": 106.8317, "hours": "16:00-01:00",
+      "menu": [
+        { "name": "Martabak Pandan Kacang", "price": 35000, "dishId": "martabak-manis" },
+        { "name": "Martabak Coklat Keju", "price": 45000, "dishId": "martabak-manis" },
+        { "name": "Martabak Telor Spesial", "price": 40000 }
+      ]
+    },
+    {
+      "id": "pempek-wong-kito", "name": "Pempek Wong Kito Depok", "area": "Margonda",
+      "lat": -6.3815, "lng": 106.8325, "hours": "10:00-21:00",
+      "menu": [
+        { "name": "Pempek Kapal Selam", "price": 22000, "dishId": "pempek" },
+        { "name": "Paket Pempek Campur", "price": 30000, "dishId": "pempek" },
+        { "name": "Dimsum Mentai", "price": 25000, "dishId": "dimsum" },
+        { "name": "Tekwan", "price": 20000 }
+      ]
+    },
+    {
+      "id": "ayam-bakar-beji", "name": "Ayam Bakar Kalasan Beji", "area": "Beji",
+      "lat": -6.3725, "lng": 106.8185, "hours": "10:00-21:00",
+      "menu": [
+        { "name": "Ayam Bakar Kalasan", "price": 24000, "dishId": "ayam-bakar" },
+        { "name": "Nasi Uduk Ayam Bakar", "price": 28000, "dishId": "nasi-uduk" },
+        { "name": "Ayam Goreng Kremes", "price": 22000 }
+      ]
+    },
+    {
+      "id": "kedai-kelapa-dua", "name": "Kedai Serba Ada Kelapa Dua", "area": "Kelapa Dua",
+      "lat": -6.3565, "lng": 106.8425, "hours": "08:00-22:00",
+      "menu": [
+        { "name": "Nasi Goreng Kampung", "price": 18000, "dishId": "nasi-goreng" },
+        { "name": "Soto Ayam Lamongan", "price": 18000, "dishId": "soto-ayam" },
+        { "name": "Gado-Gado", "price": 16000, "dishId": "gado-gado" },
+        { "name": "Pecel Lele", "price": 17000, "dishId": "pecel-lele" },
+        { "name": "Burger Kampus", "price": 22000, "dishId": "burger" }
+      ]
+    }
+  ]
+}

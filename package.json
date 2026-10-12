@@ -13,7 +13,8 @@
     "preview": "vite preview",
     "typecheck": "tsc -b",
     "check:data": "node scripts/validate-data.mjs",
-    "check": "pnpm typecheck && pnpm check:data && vite build"
+    "check": "pnpm typecheck && pnpm check:data && vite build",
+    "export:sql": "node scripts/export-sql.mjs"
   },
   "dependencies": {
     "leaflet": "~1.9.4",

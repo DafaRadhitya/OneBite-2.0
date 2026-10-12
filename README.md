@@ -36,6 +36,7 @@ This is the guard against the "ghost" that killed attempt #1.
 | `pnpm dev` | Start the app with live reload (port 5173, fails loudly if already in use) |
 | `pnpm check` | Typecheck + data check + production build. **Run before every pull request.** CI runs the same thing. |
 | `pnpm check:data` | Only check the food data for mistakes (unknown dish ids, bad prices, swapped lat/lng…) |
+| `pnpm export:sql` | Regenerate `db/onebite.sql` (MySQL/MariaDB) from the JSON data, for phpMyAdmin import |
 | `pnpm build` / `pnpm preview` | Build and serve the production version locally |
 
 **Demo trick:** add `?time=21:30` to the URL to pretend it's 21:30 (to show the late-night picks during a daytime demo).
@@ -65,6 +66,17 @@ scripts/validate-data.mjs
 2. Prices are **whole Rupiah** (`15000`, not `15k`). Hours are `"10:00-22:00"`, can cross midnight (`"17:00-02:00"`), `"00:00-24:00"` = 24h.
 3. Link a menu item to a dish with `"dishId": "nasi-goreng"`. Items without `dishId` show on the menu but are never rolled.
 4. Run `pnpm check:data`. It tells you exactly what's wrong.
+
+## Database (phpMyAdmin)
+
+`db/onebite.sql` is a MySQL/MariaDB version of the same data: tables `dishes`, `dish_best_times`, `dish_pitches`,
+`restaurants`, `menu_items`, plus a view `v_dish_places`.
+
+1. phpMyAdmin → **New** → database name `onebite`, collation **utf8mb4_unicode_ci** (needed for emoji) → Create.
+2. Select the `onebite` database → **Import** → choose `db/onebite.sql` → **Import**.
+
+The file drops and recreates its tables, so re-importing is safe but **wipes edits made inside phpMyAdmin**.
+The app still reads the JSON files; the JSON is the source of truth. After changing JSON, run `pnpm export:sql`.
 
 ## Deploy (Vercel)
 
